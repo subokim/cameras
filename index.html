@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>basicStructure</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/lib/jquery.js"></script>
+<script src="js/lib/three.js"></script>
+<script src="js/lib/amendedThree.js"></script>
+<script src="js/lib/GLTFLoader.js"></script>
+<script src="js/lib/OrbitControls.js"></script>
+<script src="js/config/config.js"></script>
+<script src="js/config/global.js"></script>
+<script src="js/lib/keypress.min.js"></script>
+<script src="js/lib/ammo.js"></script>
+<script src="js/util/MathUtils.js"></script>
+<script>
+	var GLOBAL = new $GLOBAL();
+</script>
+<script data-main="js/launcher" src="js/lib/require.js"></script>
+</head>
+<body>
+<div id="stage">
+	<div id="WebGL_space">
+		<!-- Here is three.js program area -->
+		<button>move sub menu</button>
+	</div>
+	<div id="Loading_page">
+		<div id="ltext">Loading...</div>
+		<center>
+		    <div id="progressbar" class="shadow"><div id="bar" class="shadow"></div></div>
+		</center>
+	</div>	
+</div>
+</body>
+</html>

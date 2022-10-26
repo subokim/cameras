@@ -1,0 +1,65 @@
+@font-face {
+    font-family: NanumSquareEB;
+    /*src: url(/assets/font/NanumSquareEB.eot); IE9 호환성 보기*/
+    src: local("☺"),
+         url(../assets/font/NanumSquareEB.woff) format('woff'); /*표준 브라우저*/
+}
+@font-face {
+    font-family: KopubDotumMedium;
+    /*src: url(/assets/font/NanumSquareEB.eot); IE9 호환성 보기*/
+    src: local("☺"),
+         url(../assets/font/KoPub Dotum Medium.woff) format('woff'); /*표준 브라우저*/
+}
+
+html,body{
+	margin:0px;
+	padding:0px;
+	font-size:20px;
+	auto;
+	background-color: #eaeaea;
+}
+* { cursor: inherit; }
+
+#WebGL_space {
+	display: none;
+}	
+#WebGL_space button {
+	z-index:10;
+	position:fixed;
+	right:30px;
+	bottom:30px;
+	background-color:#545454;
+	color:#aeaeae;
+	font-size:30px;
+	display: none;
+}
+#Loading_page {
+	position:relative;
+	width:100%;
+	height:100%;
+	text-align: center;
+}
+#ltext {
+	font-size:40px;
+	font-weight:bold;
+	color:#d00;
+	text-align: center;
+	margin-top: 15rem;
+}
+#progressbar {
+	text-align: center;
+	background: white;
+	width: 20rem;
+	height: 1rem;
+	margin-top: 1rem;
+}
+#bar {
+	background:#d00;
+	width:2rem;
+	height:1rem;
+}
+.shadow {
+	-moz-box-shadow: 0px 0px 5px #000;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+}
